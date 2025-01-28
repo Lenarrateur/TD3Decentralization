@@ -7,8 +7,8 @@ app = Flask(__name__)
 
 # Model URLs and weights
 models = {
-    #"participant_1": {"url": "https://f01b-89-30-29-68.ngrok-free.app/predict", "weight": 1.0},
-    #"participant_2": {"url": "https://7692-89-30-29-68.ngrok-free.app/predict", "weight": 1.0},
+    "participant_1": {"url": "https://f01b-89-30-29-68.ngrok-free.app/predict", "weight": 1.0},
+    "participant_2": {"url": "https://7692-89-30-29-68.ngrok-free.app/predict", "weight": 1.0},
     "participant_3": {"url": "https://6b68-89-30-29-68.ngrok-free.app/predict", "weight": 1.0},
     "participant_4": {"url": "https://dedd-89-30-29-68.ngrok-free.app/predict", "weight": 1.0}
 }
